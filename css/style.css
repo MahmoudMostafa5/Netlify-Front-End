@@ -1,0 +1,191 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* sideBar */
+
+
+#close
+{
+    position: absolute;
+    top: 20px;
+    left: 130px;
+    cursor: pointer;
+}
+#sideBar
+{
+    position: fixed;
+    top: 0px;
+    left: -200px;
+    z-index: 99999;
+}
+#sumarryBox
+{
+    float: left;
+    padding: 20px;
+    background-color: #414658;
+    height: 100vh;
+}
+
+.nav-item
+{
+    cursor: pointer;
+    height: 100px;
+    font-size: 25px;
+    padding: 20px 32px;
+}
+#sideBarToggle
+{
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 300px;
+    color: #fff;
+    float: left;
+    cursor: pointer;
+
+}
+/* header */ 
+.home
+{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: #fff;
+}
+.home .layer
+{
+    height: 80%;
+    width: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+.caption
+{
+    height: 100%;
+}
+.caption h2
+{
+    font-size: 3.5rem;
+}
+
+/* Details */ 
+#Details
+{
+    margin: 100px auto;
+    width: 50%;
+    font-size: 14px;
+    line-height: 1.4;
+}
+#Details .detOne
+{
+    display: block;
+}
+#Details .detTow
+{
+    display: none;
+}
+#Details .detThree
+{
+    display: none;
+}
+#Details .detFour
+{
+    display: none;
+}
+#Details .singer
+{
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+}
+#Details .parag
+{
+    margin: 0;
+    background-color: #ccc;
+    color: #333;
+}
+#Details .parag p
+{
+    padding: 10px;
+    margin: 0;
+}
+
+/* time counter */
+#timeCounter
+{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-size: 150% 100%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 100px;
+}
+.layer
+{
+    height: 330px;
+    width: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+.timeCounter
+{
+    padding: 100px 150px;
+}
+.caption
+{
+    height: 100%;
+}
+.caption h2
+{
+    font-size: 3.5rem;
+}
+#timeCounter .col-md-3
+{
+    padding: 50px;
+    border: 1px solid white;
+}
+/* contact */
+#contact
+{
+    padding-top: 100px;
+}
+.links .icon-item
+{
+    border: #999 1px solid;
+    
+    width: 40px;
+    height: 40px;
+    color: #777;
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.2rem;
+    line-height: 42px;
+}
+.links .icon-item:hover
+{
+    background-color: #D62E33;
+    border-color: #D62E33;
+    color: #fff;
+}
+.message h2
+{
+    color: #444;
+    font-size: 35;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px 0;
+    line-height: 1.1;
+}
+.message p
+{
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 0 10px;
+}
